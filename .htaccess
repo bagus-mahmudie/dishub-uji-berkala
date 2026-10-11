@@ -1,0 +1,27 @@
+<IfModule mod_rewrite.c>
+  DirectoryIndex index.php
+  Options -Indexes -MultiViews
+  ServerSignature Off
+
+  RewriteEngine On
+  RewriteRule ^qr/v1/rfid/ - [L]
+  RewriteRule ^qr/?$ index.php [L,QSA]
+  RewriteRule ^qr/v1/?$ index.php [L,QSA]
+
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_URI} !\.[a-zA-Z0-9]{2,5}$
+
+  RewriteCond %{REQUEST_FILENAME}.php -f
+  RewriteRule ^(.+)$ $1.php [L,QSA]
+
+  RewriteCond %{REQUEST_FILENAME}.html -f
+  RewriteRule ^(.+)$ $1.html [L,QSA]
+
+  RewriteRule ^ index.php [L]
+</IfModule>
+

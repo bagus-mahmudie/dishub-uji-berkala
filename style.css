@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif; 
+  background-color: #f2f2f9;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.login-wrapper {
+  width: 100%;
+  max-width: 100vw;
+  min-height: 100vh;
+  border-radius: 6px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  overflow: hidden;
+}
+
+.login-box {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 30px 20px 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px 12px 12px 0px;
+  border: none;
+  border-bottom: 2px solid #ddd;
+  font-size: 15px;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif; 
+}
+
+.form-group input:focus {
+  border-bottom-color: #6c47ff;
+}
+
+.forgot {
+  text-align: right;
+  font-size: 12px;
+  margin: 10px 20px;
+}
+
+.forgot a {
+  text-decoration: none;
+  color: #6c47ff;
+}
+
+/* area tombol di bawah */
+.footer {
+  padding: 20px;
+  background: #fff;
+}
+
+.btn-login {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(to right, #6c47ff, #864eff);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.btn-login i {
+  margin-right: 5px;
+}
+
+.btn-login:hover {
+  opacity: 0.9;
+}

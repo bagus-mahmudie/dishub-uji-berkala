@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://localhost/Dishub-Uji-Berkala/qr/v1/rfid/QWERTY111026.html</loc>
+    <lastmod>2026-10-11T12:33:37+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost/Dishub-Uji-Berkala/qr/v1/rfid/QWERTY120925.html</loc>
+    <lastmod>2025-09-12T07:48:04+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost/Dishub-Uji-Berkala/qr/v1/rfid/QWERTY110925.html</loc>
+    <lastmod>2025-09-11T08:51:56+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost/Dishub-Uji-Berkala/qr/v1/rfid/QWERTY100925.html</loc>
+    <lastmod>2025-09-11T08:51:38+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost/Dishub-Uji-Berkala/qr/v1/rfid/QWERTY120925QWDQWDQW.html</loc>
+    <lastmod>2025-09-11T08:29:12+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost/Dishub-Uji-Berkala/qr/v1/rfid/QWERTY090925.html</loc>
+    <lastmod>2025-09-11T08:28:50+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost/Dishub-Uji-Berkala/qr/v1/rfid/QWERTY090925DQWDQDQD.html</loc>
+    <lastmod>2025-09-11T08:17:27+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost/Dishub-Uji-Berkala/qr/v1/rfid/QWERTY090925ADADAAD.html</loc>
+    <lastmod>2025-09-11T08:15:07+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost/Dishub-Uji-Berkala/qr/v1/rfid/QWERTY090925VWEVVWEVWE.html</loc>
+    <lastmod>2025-09-11T07:42:24+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost/Dishub-Uji-Berkala/qr/v1/rfid/QWERTY090925RERTT.html</loc>
+    <lastmod>2025-09-11T07:39:45+02:00</lastmod>
+  </url>
+</urlset>
