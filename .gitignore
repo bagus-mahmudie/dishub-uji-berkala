@@ -37,3 +37,6 @@
 /.idea/
 /.vscode/
 /config.php
+
+# Reviewed import schema; private SQL exports remain ignored
+!/database/dishub.sql
