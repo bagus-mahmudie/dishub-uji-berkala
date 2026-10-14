@@ -4,6 +4,10 @@ Periodic vehicle inspection records application with a dashboard, inspection for
 
 **Status:** Local development; a public demo is not yet available.
 
+## Preview
+
+[![Dishub Uji Berkala — application preview](docs/screenshots/project-preview.png)](docs/screenshots/project-preview.png)
+
 ## Features
 
 - Staff authentication and dashboard
